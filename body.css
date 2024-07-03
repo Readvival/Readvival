@@ -1,0 +1,321 @@
+ * {
+    font-family: "Poppins";
+    }
+    header {
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    background: #fff;
+    }
+    
+    * {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+    }
+    nav ul {
+    display: flex;
+    position: absolute;
+    padding: 15px;
+    bottom: 0px;
+    width: 92.5%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: #468DFF;
+    transition: 0.5s;
+    border-style: none;
+    }
+    body {
+    background-color: #fff;
+    }
+    nav ul li {
+    font-size: 10px;
+    width: 50%;
+    margin-left: 20px;
+    }
+    
+    nav ul li:hover ,nav ul img:hover {
+     transform: scale(1.1);
+    }
+    nav li{
+    color: #ffffff;
+    }
+    #menu ,#menu1{
+    padding: 5px;
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+    position: absolute;
+    top: 2.5px;
+    right: 5px;
+    border-radius: 5px;
+    font-weight: 1000;
+    color: white;
+    transition: 0.5s;
+    }
+    #quiz {
+    left: 7.5rem;
+    }
+    #words {
+    left: 15rem;
+    }
+    #guess {
+    margin-bottom: 40px;
+    margin-left: 5px;
+    }
+    #games div:hover {
+    background: #3B7B9A;
+    }
+    #quit {
+    padding: 7px;
+    position: absolute;
+    font-size: 40px;
+    bottom: 16.5rem;
+    margin-left: 0.5rem;
+    color: #fff;
+    }
+    nav ul li img {
+    color: #fff;
+    }
+    #recommend-videos ul {
+     display: flex;
+     overflow-x: scroll;
+    }
+    #recommend-videos li {
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #D9D9D9;
+    }
+    #recommend-videos h4 {
+     margin-top: 1rem;
+     padding: 5px;
+     font-weight: 200;
+     font-size: 15px;
+    }
+    #recommend-videos li:hover {
+    }
+    #books li {
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #D9D9D9;
+    }
+    
+   ::-webkit-scrollbar {
+    width: 0px; 
+    background: transparent; /* make scrollbar transparent */
+   }
+    #settings {
+    position: absolute;
+    width: 98%;
+    bottom: 20px;
+    height: 30%;
+    background: #468DFF;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border-radius: 10px;
+    display: none;
+    transition: 0.4s;
+    text-align: center;
+    margin-left: 1.5px;
+    }
+    #setting {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    transition: 0.4s;
+    border-style: none;
+    }
+    #rateBtn,#customBtn{
+    padding-top: 5px;
+    font-weight: 500;
+    color: #EEEFF4;
+    transition: 0.4s;
+    
+    }
+    #line {
+    font-weight: bold;
+    border-radius: 10px;
+    color: #fff;
+    }
+    #settings #customBtn:hover,#rateBtn:hover {
+      background: #0164A5;
+      width: 98%;
+      text-align: center;
+      padding: 5px;
+      transition: 0.1s;
+    }
+    #quiz,#guess,#words,#read {
+    background: #468DFF;
+    font-family:"Poppins",sans-serif;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 15%;
+    text-align: center;
+    padding: 10px;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    }
+    #quit {
+     position: relative;
+     top: -20px;
+     font-size: 25px;
+     background: #468DFF;
+     width: 5%;
+     margin-left: 0;
+     border-top-right-radius: 15px;
+     border-bottom-right-radius: 15px;
+    }
+    #games div:hover {
+    background: #2E7DB8;
+    }
+    @keyframes opacity{
+      50%{opacity: 0;},
+      100%{opacity: 100%;}
+    }
+   #recommend-videos button,#recommend-videos p{
+       float: right;
+       font-size: 15px;
+       opacity: 70%;
+       flex-direction: row;
+   }
+   #recommend-videos button{
+       padding: 10px;
+       border-radius: 5px;
+       margin-bottom: 5px;
+       background: #468DFF;
+       border-style: none;
+       color: #fff;
+   }
+   #recommend-videos h6 {
+       opacity: 70%;
+   }
+   header img {
+       border-radius: 15px;
+       padding-right: 3px;
+   }
+  #details h4 {
+      background: #468DFF;
+      padding: 10px;
+      margin-top: 0px;
+  }
+  #details {
+      position: absolute;
+      top: 150px;
+      width: 90%;
+      background: #CBCBCB;
+      margin-left: 10px;
+      border-radius: 3px;
+      display: none;
+      animation: fadeIn 0.5s ease-in;
+  }
+  #details p {
+      padding: 10px;
+      font-size: 12px;
+  }
+  #details .email {
+      color: #468DFF;
+  }
+  #details button{
+      color: #fff;
+      background: transparent;
+      border-style: none;
+      padding: 5px;
+  }
+  @keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+  #video-section h4 {
+     font-weight: 500;
+     padding: 5px;
+  }
+  #video-section p {
+     padding-left: 10px;
+     font-size: 14px;
+  }
+  #video-section button {
+      width: 35%;
+      margin-left: 5px;
+      text-align: center;
+      background-color: #468DFF;
+      color: #fff;
+      border-radius: 5px;
+      padding: 2.5px;
+      border-style: none;
+  }
+  #video-section button:hover {
+      background: #1776FF;
+      transform: scale(1.03);
+  }
+  #video-section {
+      display: none;
+  }
+  #video-section div {
+      margin-bottom: 7.5px;
+      width: 95%;
+      margin-left: 5px;
+      border-radius: 2.5px;
+      padding: 5px;
+      background: #fff;
+  }
+  #video-section .p {
+      font-size: 20px;
+  }
+  #games-section h4{
+      font-weight: 500;
+      width: 50%;
+      padding: 10px;
+      margin: 3.5px;
+      border-radius: 5px;
+  }
+  #games-section button {
+      padding: 5px;
+      border-radius: 5px;
+      border-style: none;
+      background: #468DFF;
+      color: #fff;
+      margin-left: 5px;
+      margin-top: 5px;
+  }
+  #games-section div {
+      height: 100px;
+      margin-bottom: 5px;
+      width: 97%;
+      margin-left: 5px;
+      border-radius: 5px;
+      background: #fff;
+  }
+  #games-section {
+      display: none;
+  }
+  #games-section button:hover {
+      background: #1776FF;
+      transform: scale(1.03);
+  }
+  #recommend-videos li {
+      background: linear-gradient(to top,#468DFF ,#fff 40%);
+  }
+  #endPage p{
+      opacity: 70%;
+      padding-top: 20px;
+      padding-left: 10%;
+  }
+   #recommend-videos button:hover {
+       
+  }
